@@ -19,7 +19,7 @@ export const navLinks = [
     name: "Contact",
     href: "#contact",
   },
-];
+] as const;
 
 export const clientReviews = [
   {
@@ -36,7 +36,7 @@ export const clientReviews = [
     position: "Founder of TechGear Shop",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Adrian's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He's a true professional! Fantastic work.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const clientReviews = [
     position: "Project Manager at UrbanTech ",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can't say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
   },
   {
     id: 4,

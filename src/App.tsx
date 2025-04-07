@@ -1,5 +1,10 @@
-function App() {
-  return <h1 className="text-6xl font-bold underline">Hello world!</h1>;
-}
+import Navbar from "./sections/Navbar";
+const App = () => {
+  return (
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
+  );
+};
 
 export default App;
