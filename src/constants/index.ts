@@ -276,12 +276,12 @@ export const calculateSizes = (
       ? [5, 4, 0]
       : [12, 3, 0],
     ringPosition: isSmall
-      ? [-5, 7, 0]
+      ? [-33, 15, 0]
       : isMobile
-      ? [-10, 10, 0]
+      ? [-38, 14, 0]
       : isTablet
-      ? [-12, 10, 0]
-      : [-24, 10, 0],
+      ? [-42, 12, 0]
+      : [-42, 12, 0],
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
